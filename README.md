@@ -19,10 +19,10 @@ It's based on
 ![Example screenshot](https://raw.github.com/marcj/Pesto/master/docs/assets/screenot-example_absolute.png)
 
 ```c++
-#import "pest/Base.h"
-#import "pest/Window.h"
-#import "pest/Application.h"
-#import "pest/Element.h"
+#import "pesto/Base.h"
+#import "pesto/Window.h"
+#import "pesto/Application.h"
+#import "pesto/Element.h"
 
 #include <iostream>
 #include <string>
@@ -158,9 +158,7 @@ content {
 
 ## Install dependencies
 
-1. Download Skia https://skia.org/user/download
-2. Compile Skia https://skia.org/user/build
-
+### Build Skia
 ```
 git submodule init
 export PATH="${PWD}/libs/depot_tools:${PATH}"
@@ -172,9 +170,6 @@ bin/gn gen out/Clang --args='is_official_build=true cc="clang" cxx="clang++" ski
 # bin/gn gen out/ClangO2 --args='is_official_build=true is_debug=false extra_cflags=["-O2"] cc="/usr/local/Cellar/llvm@5/5.0.1/bin/clang" cxx="/usr/local/Cellar/llvm@5/5.0.1/bin/clang++" skia_use_dng_sdk=false skia_use_sfntly=false skia_use_libwebp=false'
 
 ninja -C out/ClangO
-``
-
-Don't know whether following packages are necessary or not. The build above can install dependencies as well, depending on `is_official_build`.
 ```
 
 
