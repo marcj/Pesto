@@ -1,0 +1,63 @@
+[submodule "libs/Catch2"]
+	path = libs/Catch2
+	url = git@github.com:catchorg/Catch2.git
+[submodule "libs/algorithm"]
+	path = libs/algorithm
+	url = git@github.com:boostorg/algorithm.git
+[submodule "libs/boost/process"]
+	path = libs/boost/process
+	url = git@github.com:boostorg/process.git
+[submodule "libs/boost/system"]
+	path = libs/boost/system
+	url = git@github.com:boostorg/system.git
+[submodule "libs/skia-wasm-port"]
+	path = libs/skia-wasm-port
+	url = git@github.com:Zubnix/skia-wasm-port.git
+[submodule "libs/emsdk"]
+	path = libs/emsdk
+	url = https://github.com/juj/emsdk.git
+[submodule "libs/skia"]
+	path = libs/skia
+	url = git@github.com:google/skia.git
+[submodule "libs/tracy"]
+	path = libs/tracy
+	url = git@bitbucket.org:wolfpld/tracy.git
+[submodule "libs/depot_tools"]
+	path = libs/depot_tools
+	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
+[submodule "libs/boost/config"]
+	path = libs/boost/config
+	url = git@github.com:boostorg/config.git
+[submodule "libs/boost/range"]
+	path = libs/boost/range
+	url = git@github.com:boostorg/range.git
+[submodule "libs/boost/preprocessor"]
+	path = libs/boost/preprocessor
+	url = git@github.com:boostorg/preprocessor.git
+[submodule "libs/boost/mpl"]
+	path = libs/boost/mpl
+	url = git@github.com:boostorg/mpl.git
+[submodule "libs/boost/type_traits"]
+	path = libs/boost/type_traits
+	url = git@github.com:boostorg/type_traits.git
+[submodule "libs/boost/iterator"]
+	path = libs/boost/iterator
+	url = git@github.com:boostorg/iterator.git
+[submodule "libs/boost/assert"]
+	path = libs/boost/assert
+	url = git@github.com:boostorg/assert.git
+[submodule "libs/boost/static_assert"]
+	path = libs/boost/static_assert
+	url = git@github.com:boostorg/static_assert.git
+[submodule "libs/boost/detail"]
+	path = libs/boost/detail
+	url = git@github.com:boostorg/detail.git
+[submodule "libs/boost/core"]
+	path = libs/boost/core
+	url = git@github.com:boostorg/core.git
+[submodule "libs/boost/concept_check"]
+	path = libs/boost/concept_check
+	url = git@github.com:boostorg/concept_check.git
+[submodule "libs/boost/utility"]
+	path = libs/boost/utility
+	url = git@github.com:boostorg/utility.git
